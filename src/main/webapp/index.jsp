@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ashok IT Courses Demo</title>
-
   <style>
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -49,6 +49,8 @@
       border-radius: 20px;
       box-shadow: 0 8px 18px rgba(0,0,0,0.08);
       transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
       text-align: center;
     }
 
@@ -68,6 +70,7 @@
       justify-content: center;
       font-size: 32px;
       color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
 
     .course-title {
@@ -102,39 +105,52 @@
       transform: scale(1.07);
     }
   </style>
-
+  <!-- Using FontAwesome for icons -->
   <script src="https://kit.fontawesome.com/2b5d5a9c8f.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
   <header>
-    <h1>🚀 Suthan Project</h1>
-    <p>Jenkins using Maven Docker EKS project</p>
+    <h1>🚀 Ashok IT Courses</h1>
+    <p>Upgrade your career with our industry-ready training programs</p>
   </header>
 
   <div class="container">
-
-    <!-- Card 1 -->
     <div class="course-card">
       <div class="course-icon"><i class="fab fa-java"></i></div>
       <div class="course-title">Java Full Stack Development</div>
       <div class="course-desc">
-        Master Core Java, Spring Boot, Microservices.
+        Master Core Java, Spring Boot, Microservices, Angular, React & more to become a job-ready full-stack developer.
       </div>
-      <a href="#" class="btn">Learn More</a>
+      <a href="#" class="btn">Enroll Now</a>
     </div>
 
-    <!-- Card 2 -->
+    <div class="course-card">
+      <div class="course-icon"><i class="fab fa-python"></i></div>
+      <div class="course-title">Python Full Stack Development</div>
+      <div class="course-desc">
+        Learn Python, Django, REST APIs, React, and advanced deployment strategies for real-world projects.
+      </div>
+      <a href="#" class="btn">Enroll Now</a>
+    </div>
+
     <div class="course-card">
       <div class="course-icon"><i class="fas fa-cloud"></i></div>
       <div class="course-title">DevOps with AWS</div>
       <div class="course-desc">
         Get hands-on with Docker, Kubernetes, Jenkins, Terraform & AWS Cloud to launch your DevOps career.
       </div>
-      <a href="#" class="btn">Learn More</a>
+      <a href="#" class="btn">Enroll Now</a>
     </div>
 
+    <div class="course-card">
+      <div class="course-icon"><i class="fas fa-robot"></i></div>
+      <div class="course-title">Data Science & AI</div>
+      <div class="course-desc">
+        Become industry-ready with Machine Learning, Python, Deep Learning, NLP, and real-time data projects.
+      </div>
+      <a href="#" class="btn">Enroll Now</a>
+    </div>
   </div>
 
 </body>
